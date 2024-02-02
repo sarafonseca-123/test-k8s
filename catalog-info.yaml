@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-k8s
+  description: Repository for test Kubernetes stuff
+  annotations:
+    github.com/project-slug: 'sarafonseca-123/test-k8s'
+spec:
+  type: service
+  lifecycle: production
+  system: juspipeline
+  owner: infra
+  dependsOn: [component:dagster-demo]
