@@ -5,6 +5,11 @@ metadata:
   description: Repository for test Kubernetes stuff
   annotations:
     github.com/project-slug: 'sarafonseca-123/test-k8s'
+  tags: [kubernetes, python, devops]
+  links:
+    - url: https://dashboard.example.com
+      title: Dashboard - Kubernetes Monitoring
+      icon: dashboard
 spec:
   type: service
   lifecycle: production
